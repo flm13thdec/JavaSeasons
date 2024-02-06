@@ -17,6 +17,9 @@ public class SumTest {
 		
 		obj1.add(2200033000L, 3300044000L);
 		
+		//user 4
+		
+		obj1.add(10, 20, 30);
 		
 
 	}
