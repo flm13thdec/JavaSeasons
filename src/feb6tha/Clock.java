@@ -4,7 +4,12 @@ public class Clock {
 	
 	int hr,min,sec;
 	
-	
+	public Clock()
+	{
+		hr=10;
+		min=10;
+		sec=10;
+	}
 	
 	public Clock(int hr)
 	{

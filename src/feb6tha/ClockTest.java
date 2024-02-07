@@ -7,8 +7,8 @@ public class ClockTest {
 		
 		//user 1
 		
-		Clock c1=new Clock();
-		c1.getClock();
+		//Clock c1=new Clock();
+		//c1.getClock();
 		
 		//user 2
 		
