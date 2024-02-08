@@ -13,6 +13,7 @@ public class InheritDemo1 {
 		s1.getResults();
 		s1.setLeaves(5, 8);
 		s1.getLeaves();
+		
 
 	}
 
