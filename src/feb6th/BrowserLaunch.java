@@ -1,7 +1,7 @@
 package feb6th;
 
 
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserLaunch {
 
@@ -9,7 +9,7 @@ public class BrowserLaunch {
 		
 		//new ChromeDriver();
 		
-		new FirefoxDriver();
+		//new FirefoxDriver();
 
 	}
 

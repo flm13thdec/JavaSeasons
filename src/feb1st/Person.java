@@ -8,6 +8,18 @@ public class Person {
 	
 	long phone;
 	
+	public Person()
+	{
+		
+	}
+	
+	public Person(Person p)
+	{
+		this.name=p.name;
+		this.age=p.age;
+		this.phone=p.phone;
+	}
+	
 	public void greet()
 	{
 		System.out.println("Hi "+name+"..Good Evening...");
