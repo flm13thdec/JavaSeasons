@@ -1,14 +1,22 @@
 package feb27th;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ExceptionDemo1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException, FileNotFoundException {
 		
 		System.out.println("Enter Dividend : ");
 		Scanner input=new Scanner(System.in);
 		int x=input.nextInt();
+		
+		
+		//	Thread.sleep(3000);
+		
+		new FileInputStream("D:\\FLM13thDec\\Test case Deisgn Techniques.xlsx");
+		
 		
 		System.out.println("Enter Divisor : ");
 		int y=input.nextInt();
